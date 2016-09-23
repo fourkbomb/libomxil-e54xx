@@ -10,7 +10,6 @@ Requires(postun): /sbin/ldconfig
 BuildRequires: kernel-headers
 BuildRequires: pkgconfig(dlog)
 BuildRequires: pkgconfig(mm-common)
-BuildRequires: model-build-features
 
 %if "%{tizen_target_name}" == "TM1"
 ExclusiveArch:
